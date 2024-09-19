@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog D. Dog</title>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        .container{
+            width: 90%;
+            background-color: white;
+            margin: 0 auto;
+        }
+        .header h1{
+            margin-top: 0;
+            margin-left:10px;
+        }
+        .block{
+            padding: 10px;
+            position:relative;
+        }
+        .title{
+            line-height: 20px;
+            font-size: 25px;
+            font-weight: bold;
+            color: rgb(4, 99, 147);
+            background-color: rgb(111, 146, 186);
+            padding: 10px;
+        }
+        header{
+            padding: 10px;
+        }
+        .image{
+            position: absolute;
+            right: 0;
+            top:0;
+            padding:10px;
+            z-index:1;
+            height: 200px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+
+        table, th, td{
+            border: 1px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"><h1>Dog D. Dog</h1></div>
+        <div class="block">
+            <div class="title">About</div>
+            <div class="content">
+                <p>Woof Woof!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <img src="https://m.yodycdn.com/blog/anh-cho-meme-yody-vn1.jpg" alt="Anh con cho" class="image">
+            </div>
+        </div>
+        <div class="block">
+            <div class="title">Courses</div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <table>
+                    <tr>
+                        <th>Course Number</th>
+                        <th style="text-align: center;">Course Title</th>
+                        <th>Semester Taken</th>
+                    </tr>
+                    <tr>
+                        <td><a href="#">6.813</a></td>
+                        <td>User Interface Design</td>
+                        <td>Spring 2014</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">6.034</a></td>
+                        <td>Artificial Intelligence</td>
+                        <td>Fall 2013</td>
+                    </tr>
+                    <tr>
+                        <td><a style="color: #004080; "><strong>6.006</strong></a></td>
+                        <td>Introduction to Algorithms</td>
+                        <td>Fall 2013</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="text-align: center;"><strong>Listener</strong></td>
+                    </tr>
+                    <tr>
+                        <td>6.867</td>
+                        <td>Machine Learning</td>
+                        <td>Fall 2013</td>
+                    </tr>
+                    <tr>
+                        <td>6.830</td>
+                        <td>Database Systems</td>
+                        <td>Fall 2012</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="block">
+            <div class="title">Interests</div>
+            <div class="content">
+                <p>I am interested <strong>HCI</strong>, memes, and youtube videos.</p>
+            </div>
+        </div>
+        <div class="block">
+            <div class="title">Submit Pet Information</div>
+            <div class="content">
+                <p>Would love to know what kinds of pets you "own" (you'll never own me). Submit below!</p>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" />
+                    <br>
+
+                    <label for="phylum">Phylum:</label>
+                    <input type="text" id="phylum" name="phylum" />
+                    <br>
+
+                    <label for="gender">Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <br>
+                    <input type="submit" value="Submit" />
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+</body>
+</html>
